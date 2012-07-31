@@ -1,0 +1,35 @@
+{
+  "name": "express-static-template",
+  "version": "0.0.2",
+  "author": "Morgan 'ARR!' Allen",
+  "description": "Allows using templates like static pages",
+  "contributors": [ 
+    {
+      "name": "Morgan 'ARR!' Allen",
+      "email": "morganrallen@gmail.com"
+    } 
+  ],
+  "scripts": {
+    "test": "node test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morganrallen/express-static-template.git"
+  },
+  "keywords": [
+    "cli",
+    "express",
+    "server"
+  ],
+  "devDependencies" : {
+    "express": "2.5.x",
+    "ejs": "0.8.x",
+    "request": "2.9.x",
+    "tap": "0.2.x"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
+
