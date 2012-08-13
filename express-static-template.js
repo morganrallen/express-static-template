@@ -15,7 +15,7 @@ module.exports = function(server, options) {
 			if(err) return next();
 
 			// req.locals can be populated by any previous route and passed in
-			res.render(filename, req.locals);
+			res.render(filename, res.locals);
 		});
 	};
 };

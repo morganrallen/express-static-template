@@ -20,7 +20,7 @@ function getUserInfo(uid) {
 };
 
 server.use(function(req, res, next) {
-	req.locals = {
+	res.locals = {
 		userInfo: getUserInfo(0)
 	};
 
